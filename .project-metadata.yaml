@@ -1,0 +1,15 @@
+name: End-2-end ML Demo - CML part
+description: CML Demo part of sensor data demo
+author: Alexander Frank
+specification_version: 1.0
+prototype_version: 1.0
+date: "2022-10-20"
+
+tasks:
+  - type: run_session
+    name: test
+    script: demo_dependency.py
+    short_summary: >-
+      test
+    cpu: 1
+    memory: 2
