@@ -5,6 +5,18 @@ specification_version: 1.0
 prototype_version: 1.0
 date: "2022-10-20"
 
+runtimes:
+  - editor: Workbench
+    kernel: Python 3.9
+    edition: Standard
+    version: 2022.04
+    
+  - editor: JupyterLab
+    kernel: Python 3.9
+    edition: Standard
+    version: 2022.04
+
+
 tasks:
   - type: run_session
     name: test
